@@ -11,6 +11,7 @@ function encode(val: string): string {
     .replace(/%5D/gi, ']')
 }
 
+// 处理url
 export function bulidURL(url: string, params?: any): string {
   // 不传params情况
   if (!params) {
